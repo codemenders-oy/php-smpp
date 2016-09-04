@@ -26,7 +26,7 @@ require_once dirname(__FILE__).DIRECTORY_SEPARATOR.'sockettransport.class.php';
 class SmppClient
 {
 	// SMPP bind parameters
-	public static $system_type="WWW";
+	public static $system_type="";
 	public static $interface_version=0x34;
 	public static $addr_ton=0;
 	public static $addr_npi=0;
